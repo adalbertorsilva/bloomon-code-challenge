@@ -71,7 +71,7 @@ describe('parser', () => {
     })
   })
 
-  describe.only('#parseFlowerLine', () => {
+  describe('#parseFlowerLine', () => {
     it('does throw an incorrect flower params error when parameter is undefined', () => {
       expect(parser.parseFlowerLine).to.throw('Incorrect flower params')
     })
