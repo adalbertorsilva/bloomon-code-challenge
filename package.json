@@ -1,0 +1,26 @@
+{
+  "name": "bloomon-challenge",
+  "version": "0.0.1",
+  "description": "Bloomon code challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "start": "node ./src/index.js",
+    "test": "mocha './test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloomon/code-challenge.git"
+  },
+  "author": "Bloomon",
+  "license": "UNLICENSED",
+  "homepage": "http://www.bloomon.nl",
+  "dependencies": {
+    "auto-bind": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
+  }
+}
